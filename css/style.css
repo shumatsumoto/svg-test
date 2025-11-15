@@ -25,32 +25,72 @@ body {
   animation-delay: 0s;
 }
 
-.lineBg svg g[style*="display: block"]:nth-child(10) path {
-  animation-delay: 0.3s;
-}
-
-.lineBg svg g[style*="display: block"]:nth-child(9) path {
-  animation-delay: 0.6s;
-}
-
-.lineBg svg g[style*="display: block"]:nth-child(8) path {
-  animation-delay: 0.9s;
-}
-
-.lineBg svg g[style*="display: block"]:nth-child(7) path {
-  animation-delay: 1.2s;
-}
-
-.lineBg svg g[style*="display: block"]:nth-child(6) path {
-  animation-delay: 1.5s;
-}
-
 .lineBg svg g[style*="display: block"]:nth-child(5) path {
-  animation-delay: 1.8s;
+  animation-delay: 2s;
 }
 
 .lineBg svg g[style*="display: block"]:nth-child(4) path {
-  animation-delay: 2.1s;
+  animation-delay: 3s;
+}
+
+.lineBg svg g[style*="display: block"]:nth-child(9) path {
+  animation-delay: 5s;
+}
+
+.lineBg svg g[style*="display: block"]:nth-child(8) path {
+  animation-delay: 5.5s;
+}
+
+.lineBg svg g[style*="display: block"]:nth-child(7) path {
+  animation-delay: 7s;
+}
+
+.lineBg svg g[style*="display: block"]:nth-child(6) path {
+  animation-delay: 8s;
+}
+
+.lineBg svg g[style*="display: block"]:nth-child(10) path {
+  animation-delay: 10s;
+}
+
+.lineBg svg g[style*="display: block"]:nth-child(4) path {
+  /* 3 */
+  stroke: #ffb3b3 !important;
+}
+
+.lineBg svg g[style*="display: block"]:nth-child(5) path {
+  /* 2 */
+  stroke: #ffd9b3 !important;
+}
+
+.lineBg svg g[style*="display: block"]:nth-child(6) path {
+  /* 7 */
+  stroke: #ffffb3 !important;
+}
+
+.lineBg svg g[style*="display: block"]:nth-child(7) path {
+  /* 6 */
+  stroke: #b3ffb3 !important;
+}
+
+.lineBg svg g[style*="display: block"]:nth-child(8) path {
+  /* 5 */
+  stroke: #b3ffff !important;
+}
+
+.lineBg svg g[style*="display: block"]:nth-child(9) path {
+  /* 4 */
+  stroke: #b3b3ff !important;
+}
+
+.lineBg svg g[style*="display: block"]:nth-child(10) path {
+  /* 8 */
+  stroke: #e6b3ff !important;
+}
+
+.lineBg svg g[style*="display: block"]:nth-child(11) path {
+  /* 1 */
+  stroke: #ffb3ff !important;
 }
 
 @keyframes drawPath {
@@ -62,7 +102,7 @@ body {
 /* SVG全体のフェードイン */
 .lineBg svg {
   opacity: 0;
-  animation: fadeIn 0.5s ease-in forwards;
+  animation: fadeIn 1.5s ease-in forwards;
 }
 
 @keyframes fadeIn {
